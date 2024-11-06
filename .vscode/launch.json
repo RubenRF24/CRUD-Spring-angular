@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GestionEmpleadosBackendApplication",
+            "request": "launch",
+            "mainClass": "com.gestion.empleados.GestionEmpleadosBackendApplication",
+            "projectName": "gestion-empleados-backend"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GestionEmpleadosBackendApplication<gestion-empleados-backend>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.gestion.empleados.gestion_empleados_backend.GestionEmpleadosBackendApplication",
+            "projectName": "gestion-empleados-backend",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=57096 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=gestion-empleados-backend"
+        }
+    ]
+}
